@@ -5,7 +5,7 @@ import java.io.File;
 public class Program{
     public static void main(String[] args){
         if (args.length == 0){
-            System.err.println("Usage:java -cp \"optifinePath installerpath\" folderPath");
+            System.err.println("java -cp <Optifine Installer Path>:<This File Path> <Minecraft Folder Path>");
             System.exit(1);
         }
         try
